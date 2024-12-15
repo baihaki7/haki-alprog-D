@@ -15,5 +15,5 @@ print (" nilai dalam kelvin :", hasil)
 
 nilai = float(input("masukan nilai dalam kelvin :"))
 
-hasil = nilai % (28 - 273.15) * 4/5
+hasil = nilai * (28 - 273.15) * 4/5
 print (" nilai dalam reamur :", hasil)
